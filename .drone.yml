@@ -1,5 +1,5 @@
 pipeline:
   backend:
-    image: williamyeh/dash
+    image: busybox
     commands:
       - sh -c "echo 'Hello, world!"
