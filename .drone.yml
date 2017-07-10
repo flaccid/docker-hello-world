@@ -1,5 +1,6 @@
 pipeline:
-  backend:
-    image: busybox
+  docker-image:
+    image: docker
     commands:
-      - sh -c 'echo Hello, world!'
+      - apk add --update make
+      - make
