@@ -2,3 +2,5 @@ pipeline:
   docker:
     image: plugins/docker
     repo: flaccid/hello-world
+    username: flaccid
+    secrets: [ docker_password ]
