@@ -1,0 +1,5 @@
+pipeline:
+  backend:
+    image: williamyeh/dash
+    commands:
+      - sh -c "echo 'Hello, world!"
