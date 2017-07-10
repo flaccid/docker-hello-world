@@ -1,6 +1,3 @@
 pipeline:
-  docker-image:
-    image: docker
-    commands:
-      - apk add --update make
-      - make
+  docker:
+    image: plugins/docker
