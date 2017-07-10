@@ -1,3 +1,4 @@
 pipeline:
   docker:
     image: plugins/docker
+    repo: flaccid/hello-world
